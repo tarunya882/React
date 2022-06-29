@@ -1,13 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "CeraProMedium";
+  src: local("CeraProMedium"),
+    url("../src/cera-pro-sv/Cera-Pro-Medium.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraProRegularItalic";
+  src: local("CeraProRegularItalic"),
+    url("../src/cera-pro-sv/Cera-Pro-Regular-Italic.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraProLight";
+  src: local("CeraProLight"),
+    url("../src/cera-pro-sv/Cera-Pro-Light.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraProBold";
+  src: local("CeraProBold"),
+    url("../src/cera-pro-sv/Cera-Pro-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraProBlack";
+  src: local("CeraProBlack"),
+    url("../src/cera-pro-sv/Cera-Pro-Black.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CeraProBlackItalic";
+  src: local("CeraProBlackItalic"),
+    url("../src/cera-pro-sv/Cera-Pro-Black-talic.otf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CeraProRegular";
+  src: local("CeraProRegular"),
+    url("../src/cera-pro-sv/Cera-Pro-Regular.otf") format("truetype");
+  font-weight: bold;
 }
